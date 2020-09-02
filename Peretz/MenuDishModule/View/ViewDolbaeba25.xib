@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewDolbaebaController" customModule="Peretz" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ViewDolbaebaController" customModule="Peretz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="412" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zo5-6x-BLY">
+                    <rect key="frame" x="0.0" y="0.0" width="412" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S8V-WA-LzH">
+                            <rect key="frame" x="4" y="3" width="404" height="44"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NameRestourantLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XoS-x0-LkF">
+                                    <rect key="frame" x="8" y="9" width="170" height="26"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PriceLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khx-V5-pTU">
+                                    <rect key="frame" x="324" y="9" width="72" height="26"/>
+                                    <color key="backgroundColor" red="0.061590325340000002" green="0.42252646329999999" blue="0.076044907349999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="26" id="RbI-DP-mJC"/>
+                                        <constraint firstAttribute="width" constant="72" id="tLT-Rl-qtn"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.64705882349999999" blue="0.16862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="khx-V5-pTU" firstAttribute="top" secondItem="S8V-WA-LzH" secondAttribute="top" constant="9" id="6j3-vh-8n8"/>
+                                <constraint firstItem="XoS-x0-LkF" firstAttribute="top" secondItem="S8V-WA-LzH" secondAttribute="top" constant="9" id="Efq-Rh-R1t"/>
+                                <constraint firstAttribute="trailing" secondItem="khx-V5-pTU" secondAttribute="trailing" constant="8" id="FVa-PA-tsu"/>
+                                <constraint firstAttribute="bottom" secondItem="khx-V5-pTU" secondAttribute="bottom" constant="9" id="MeZ-Iw-XfE"/>
+                                <constraint firstItem="XoS-x0-LkF" firstAttribute="leading" secondItem="S8V-WA-LzH" secondAttribute="leading" constant="8" id="Qtn-xJ-c7g"/>
+                                <constraint firstAttribute="height" constant="44" id="XRx-tZ-Ehj"/>
+                                <constraint firstAttribute="bottom" secondItem="XoS-x0-LkF" secondAttribute="bottom" constant="9" id="l2V-CC-UoN"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <integer key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="S8V-WA-LzH" secondAttribute="bottom" constant="3" id="J2i-d8-oKX"/>
+                        <constraint firstAttribute="trailing" secondItem="S8V-WA-LzH" secondAttribute="trailing" constant="4" id="Tet-iX-WcS"/>
+                        <constraint firstItem="S8V-WA-LzH" firstAttribute="leading" secondItem="Zo5-6x-BLY" secondAttribute="leading" constant="4" id="dpA-uN-0SK"/>
+                        <constraint firstItem="S8V-WA-LzH" firstAttribute="top" secondItem="Zo5-6x-BLY" secondAttribute="top" constant="3" id="oQU-7o-kTh"/>
+                        <constraint firstAttribute="height" constant="50" id="wCS-4N-Y3b"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Zo5-6x-BLY" secondAttribute="bottom" id="0hg-NV-Wco"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Zo5-6x-BLY" secondAttribute="trailing" id="R6o-su-y0m"/>
+                <constraint firstItem="Zo5-6x-BLY" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="eya-5p-rq5"/>
+                <constraint firstItem="Zo5-6x-BLY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vWf-tw-lf7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="borderColorView" destination="Zo5-6x-BLY" id="yHh-FJ-3ez"/>
+                <outlet property="contentView" destination="S8V-WA-LzH" id="woq-mj-Mnb"/>
+                <outlet property="nameRestLabel" destination="XoS-x0-LkF" id="9xt-Wt-Hy3"/>
+                <outlet property="priceLabel" destination="khx-V5-pTU" id="0ag-eS-Rbq"/>
+            </connections>
+            <point key="canvasLocation" x="139.13043478260872" y="54.910714285714285"/>
+        </view>
+    </objects>
+</document>
