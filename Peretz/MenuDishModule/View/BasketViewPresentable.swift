@@ -42,6 +42,8 @@ extension BasketViewPresentable where Self: UIViewController {
         
         UIView.animate(withDuration: 0.3, animations: {
             basketView.frame = CGRect(x: 0, y: self.view.frame.height - 52, width: self.view.frame.width, height: 52)
+            
+            
         })
         view.addSubview(basketView)
     }
